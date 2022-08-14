@@ -71,3 +71,18 @@ p {
 .learn-more:hover {
   color: var(--main-font-color);
 }
+#img-weather,
+#img-resp,
+#img-spaniel {
+  background-color: var(--main-bg-color);
+  padding: 24px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+}
