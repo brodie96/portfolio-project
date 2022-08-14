@@ -8,7 +8,16 @@
 }
 .navbar {
   background-color: var(--secondary-bg-color);
-  color: var(--main-font-color);
+}
+.navbar-brand {
+  color: var(--secondary-font-color);
+  font-family: var(--main-font-family);
+}
+.navbar-toggle,
+.navbar-toggle-icon,
+.nav-link {
+  color: var(--secondary-font-color);
+  font-family: var(--secondary-font-family);
 }
 .hero {
   background-color: var(--main-bg-color);
@@ -115,10 +124,10 @@ p {
 }
 
 @media (max-width: 900px) {
-  h1 {
+  .hero h1 {
     font-size: 40px;
   }
-  h2 {
+  .hero h2 {
     font-size: 30px;
   }
   .about {
