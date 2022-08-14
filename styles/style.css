@@ -6,26 +6,51 @@
   --main-font-family: "Titillium Web", sans-serif;
   --secondary-font-family: "Abel", sans-serif;
 }
-
+.navbar {
+  background-color: var(--secondary-bg-color);
+  color: var(--main-font-color);
+}
 .hero {
   background-color: var(--main-bg-color);
   padding: 120px 100px;
   text-align: center;
 }
 
-h1 {
+.hero h1 {
   color: var(--main-font-color);
   font-family: var(--main-font-family);
   font-size: 96px;
   font-weight: bold;
 }
-h2 {
+.hero h2 {
   color: var(--secondary-font-color);
   font-family: var(--main-font-family);
   font-size: 36px;
   padding: 24px;
 }
 
+.about h1 {
+  color: var(--main-font-color);
+  font-family: var(--main-font-family);
+  font-size: 80px;
+  font-weight: bold;
+  padding: 0px 10px 0px 10px;
+  margin: 0;
+}
+.about h2 {
+  color: var(--secondary-font-color);
+  font-family: var(--main-font-family);
+  font-size: 36px;
+  padding: 24px 10px;
+  margin: 0;
+}
+.about p {
+  color: var(--secondary-font-color);
+  font-family: var(--secondary-font-family);
+  font-size: 24px;
+  padding: 24px 0px 0px 0px;
+  margin: 0;
+}
 p {
   color: var(--secondary-font-color);
   font-family: var(--secondary-font-family);
@@ -67,6 +92,7 @@ p {
 
 .learn-more {
   color: var(--secondary-bg-color);
+  font-family: var(--main-font-family);
 }
 .learn-more:hover {
   color: var(--main-font-color);
@@ -76,6 +102,16 @@ p {
 #img-spaniel {
   background-color: var(--main-bg-color);
   padding: 24px;
+}
+
+.about-me {
+  color: var(--secondary-font-color);
+  font-family: var(--secondary-font-family);
+  font-size: 16px;
+  line-height: 1.5;
+}
+#my-pic {
+  padding: 100px;
 }
 
 @media (max-width: 900px) {
