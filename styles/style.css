@@ -47,3 +47,27 @@ p {
   color: var(--main-font-color);
   transition: 0.7ms;
 }
+
+.primary-link {
+  background-color: var(--secondary-bg-color);
+  color: var(--secondary-font-color);
+  font-family: var(--secondary-font-family);
+  font-size: 24px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.primary-link:hover {
+  background-color: var(--main-bg-color);
+  border: 2px solid var(--main-font-color);
+  color: var(--main-font-color);
+  transition: 0.7ms;
+}
+
+.learn-more {
+  color: var(--secondary-bg-color);
+}
+.learn-more:hover {
+  color: var(--main-font-color);
+}
