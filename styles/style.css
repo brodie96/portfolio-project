@@ -121,4 +121,7 @@ p {
   h2 {
     font-size: 30px;
   }
+  .about {
+    text-align: center;
+  }
 }
