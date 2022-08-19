@@ -19,6 +19,7 @@
   color: var(--secondary-font-color);
   font-family: var(--secondary-font-family);
 }
+
 .hero {
   background-color: var(--main-bg-color);
   padding: 120px 100px;
@@ -123,7 +124,8 @@ p {
   padding: 100px;
 }
 
-.work-title h1 {
+.work-title h1,
+.contact-title h1 {
   text-align: center;
   color: var(--main-font-color);
   font-family: var(--main-font-family);
@@ -134,13 +136,25 @@ p {
 }
 
 .work-title h2,
-.work-content h2 {
+.work-content h2,
+.contact-content {
   text-align: center;
   color: var(--secondary-font-color);
   font-family: var(--main-font-family);
   font-size: 36px;
   padding: 24px 10px;
   margin: 0;
+}
+.contact-content {
+  background: var(--secondary-bg-color);
+}
+.contact-content a {
+  text-decoration: none;
+  color: var(--secondary-font-color);
+  font-family: var(--main-font-family);
+}
+.contact-content a:hover {
+  color: var(--main-font-color);
 }
 
 .work-content p {
