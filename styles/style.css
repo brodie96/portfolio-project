@@ -152,7 +152,9 @@ p {
 }
 .contact-content {
   background: var(--secondary-bg-color);
+  border-radius: 10px;
 }
+
 .contact-content a {
   text-decoration: none;
   color: var(--secondary-font-color);
