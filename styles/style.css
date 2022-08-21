@@ -12,6 +12,10 @@
 .navbar-brand {
   color: var(--secondary-font-color);
   font-family: var(--main-font-family);
+  font-size: 24px;
+}
+.nav-item {
+  font-size: 18px;
 }
 .navbar-toggle,
 .navbar-toggle-icon,
